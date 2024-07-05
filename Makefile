@@ -94,7 +94,7 @@ $(ROOTFS): Makefile $(BUILD_DIR)/ulinux.bin src/extlinux.conf $(DTB) \
 	fakeroot install -o root -g root -m 0755 -D \
 		"$(BUILD_DIR)/init" "$(BUILD_DIR)/rootfs/sbin/init"
 	fakeroot /sbin/mkfs.ext4 -L rootfs -d "$(BUILD_DIR)/rootfs" \
-		"$@.tmp" 10M
+		"$@.tmp" 12M
 	mv -f -- "$@.tmp" "$@"
 
 $(BUILD_DIR)/fn_%: $(BUILD_DIR)/%
