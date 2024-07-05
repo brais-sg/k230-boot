@@ -1,3 +1,7 @@
+# This repository is a fork to experiment with the K230 and Linux on the big core
+
+[Original repository by Rémi Denis-Courmont](https://code.videolan.org/Courmisch/k230-boot)
+
 # Kendryte K230-CanMV Linux boot
 
 This repository provides *all* needed sources to boot the K230-CanMV board
