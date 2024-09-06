@@ -7,6 +7,6 @@
 	url = https://code.videolan.org/Courmisch/u-boot.git
 	branch = k230
 [submodule "src/linux"]
-	path = src/linux
-	url = https://github.com/revyos/k230-linux-kernel.git
-	branch = k230-v6.8
+	path = src/linuxss
+	url = https://github.com/ruyisdk/linux-xuantie-kernel.git
+	branch = linux-6.6.36
