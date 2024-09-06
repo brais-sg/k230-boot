@@ -8,5 +8,5 @@
 	branch = k230
 [submodule "src/linux"]
 	path = src/linux
-	url = https://code.videolan.org/Courmisch/linux.git
-	branch = k230
+	url = https://github.com/revyos/k230-linux-kernel.git
+	branch = k230-v6.8
